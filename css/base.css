@@ -1,0 +1,11 @@
+:root{
+    --white-color: #fff ;
+    --black-color: #000;
+    --primary-color: #298051;
+    --text-primary-color: #375D3A;
+    --selection-color: #FBFBFB;
+}
+
+a{
+    text-decoration: none;
+}

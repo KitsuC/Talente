@@ -1,0 +1,18 @@
+@media (max-width: 992px) {
+  .mid-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    padding: 18px 0 32px 0;
+  }
+  .header-img-wrap {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 0;
+  }
+  .header-img {
+    transform: translateY(0);
+  }
+}
