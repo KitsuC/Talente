@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
@@ -11,7 +15,7 @@
     />
     <link rel="stylesheet" href="./css/index.css" />
     <link rel="stylesheet" href="./css/base.css" />
-    <link rel="stylesheet" href="./css/reponsive.css">
+    <link rel="stylesheet" href="./css/reponsive.css" />
     <title>Talente</title>
   </head>
 
@@ -19,12 +23,15 @@
     <header class="header">
       <div class="top-header">
         <div class="contactDetails-left">
-          <button class="header-btn-left"><img src="./assets/img/arrow.png" alt=""></button>
-          <div class="contactDetails-left-item">
-            <a href="email:torgau@heinrichschuetz.de">torgau@heinrichschuetz.de</a>
-            <a href="tel:034217587281">03421 7587281</a>
+          <div class="contactDetails-left-title">
+            <button class="header-btn-left"><img src="./assets/img/arrow.png" alt="" /></button>
+            <div class="contactDetails-left-item">
+              <a href="email:torgau@heinrichschuetz.de">torgau@heinrichschuetz.de</a>
+              <a href="tel:034217587281">03421 7587281</a>
+            </div>
+            <button class="header-btn-right"><img src="./assets/img/arrow.png" alt="" /></button>
           </div>
-          <button class="header-btn-right"><img src="./assets/img/arrow.png" alt=""></button>
+          <span class="header-title-mobile">Slider für die versch. emailadressen und telnummern</span>
         </div>
         <div class="contactDetails-right">
           <a href="email:delitzsch@heinrichschuetz.de">delitzsch@heinrichschuetz.de</a>
@@ -33,50 +40,189 @@
       </div>
       <div class="mid-header">
         <div class="header-img-wrap">
-            <img src="./assets/img/TalenteLogo.png" alt="" class="header-img"/>
+          <img src="./assets/img/TalenteLogo.png" alt="" class="header-img" />
         </div>
         <nav class="navbar p-0 navbar-expand-lg navbar-light">
-            <div class="container-fluid header-menu">
-              <button
-                class="navbar-toggler header-menu-btn p-0"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="18" viewBox="0 0 23 18" fill="none">
-                  <rect width="23" height="4.05882" rx="1" fill="#375D3A" />
-                  <rect y="6.76514" width="23" height="4.05882" rx="1" fill="#375D3A" />
-                  <rect y="13.5291" width="23" height="4.05882" rx="1" fill="#375D3A" />
-                </svg>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav navbar-wrap">
-                  <li class="nav-item">
-                    <a class="nav-link navbar-link" href="#">WIR</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-link" href="#">NEUES</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-link" href="#">Angebote</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-link" href="#">Veranstaltungen</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-link" href="#">anmeldung</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link navbar-link" href="#">kontakt</a>
-                  </li>
-                </ul>
-              </div>
+          <div class="container-fluid header-menu">
+            <button
+              class="navbar-toggler header-menu-btn p-0"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <svg xmlns="http://www.w3.org/2000/svg" width="23" height="18" viewBox="0 0 23 18" fill="none">
+                <rect width="23" height="4.05882" rx="1" fill="#375D3A" />
+                <rect y="6.76514" width="23" height="4.05882" rx="1" fill="#375D3A" />
+                <rect y="13.5291" width="23" height="4.05882" rx="1" fill="#375D3A" />
+              </svg>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav navbar-wrap">
+                <li class="nav-item">
+                  <a class="nav-link navbar-link" href="#">WIR</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-link" href="#">NEUES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-link" href="#">Angebote</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-link" href="#">Veranstaltungen</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-link" href="#">anmeldung</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navbar-link" href="#">kontakt</a>
+                </li>
+              </ul>
             </div>
+          </div>
         </nav>
       </div>
     </header>
+    <div>
+      <div class="content">
+        <div class="content-title-wrap">
+          <h2>Talente</h2>
+          <span>entfalten</span>
+        </div>
+      </div>
+      <div class="content-info-wrap">
+        <div class="content-info">
+          <div class="flex flex-col">
+            <div class="content-info-header">
+              <div class="harmonic-sounds-container">
+                <span>Harmonische</span>
+                <p>Klänge,</p>
+              </div>
+              <div class="welcome-message-container">
+                <p>grenzenlose</p>
+                <span>Möglichkeiten:</span>
+              </div>
+            </div>
+            <span class="welcome-message"
+              >Herzlich Willkommen zur Klangwelt der Kreismusikschule „Heinrich Schütz” Nordsachsen</span
+            >
+          </div>
+          <div class="image-container">
+            <img src="./assets/img/bogen_variant1 2.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="line-mobile-wrap">
+      <div class="line"></div>
+      <div class="line-img-wrap">
+        <img src="./assets/img/arrow-line.png" alt="" />
+      </div>
+      <div class="line"></div>
+    </div>
+    <!-- Continue -->
+    <div class="container">
+      <div class="register-wrap">
+        <div class="register-img-wrap">
+          <!-- <img src="./assets/img/child-violin.jpg" alt="" /> -->
+        </div>
+        <div class="register-title-wrap">
+          <p>Herzlich</p>
+          <h2>Willkommen!</h2>
+          <span>
+            Als stolzes Mitglied des Verbands Deutscher Musikschulen und Teil des Eigenbetriebs Bildungsstätten
+            Nordsachsen bieten wir vielfältige Unterrichtsangebote in Musik und Tanz. Unser Einfluss erstreckt sich
+            flächendeckend über den Landkreis, um Menschen jeden Alters und Könnens anzusprechen.
+            <br /><br />
+            Egal ob Anfänger,Fortgeschrittener, Kind oder Erwachsener - bei uns finden Sie Ihren Platz. Unsere
+            individuelle Förderung im Einzel- oder Gruppenunterricht sowie die Möglichkeit zur Teilnahme an
+            Orchesterformationen und Instrumentalensembles machen unsere Musikschule zu einem Ort der Entfaltung. Selbst
+            die Jüngsten sind bei uns willkommen! Unsere Babykurse und Spatzengruppen legen oft den Grundstein für eine
+            erfolgreiche musikalische Ausbildung.
+            <br /><br />
+            Der Einstieg ist jederzeit möglich. Kontaktieren Sie uns und beginnen Sie Ihre musikalische Reise!
+          </span>
+          <div class="register-btn-wrap">
+            <div class="btn-about-us">Über Uns</div>
+            <button class="btn-register">
+              Jetzt Anmelden
+              <img src="./assets/img/note-music.png" alt="" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="background-primary">
+      <div class="container">
+        <div class="promotion-wrap">
+          <div class="promotion">
+            <div class="promotion-title">
+              <span class="color-white promotion-title-our">Unsere</span>
+              <span class="color-white promotion-title-offer">Angebote:</span>
+              <span class="color-white promotion-title-develop">Entfalten Sie Ihr musikalisches</span>
+              <span class="color-white promotion-title-potential">Potenzial !</span>
+            </div>
+          </div>
+          <span class="promotion-info">
+            Tauchen Sie ein in unsere breite Palette an Angeboten und Highlights, die sowohl Anfängern als auch
+            Fortgeschrittenen die Möglichkeit bieten, ihre musikalische Leidenschaft zu entdecken und zu vertiefen. Von
+            individuellem Unterricht bis zu inspirierenden Ensembles, von klassischen Klängen bis zu modernen Rhythmen -
+            unsere Musikschule steht für musikalische Vielfalt und individuelle Förderung. Erfahren Sie mehr über unsere
+            spannenden Kurse, Workshops und Veranstaltungen.
+          </span>
+          <div class="courses-wrap">
+            <div class="courses">
+              <div class="course-item-guitar">
+                <div class="course-item-btn-wrap">
+                  <span>Instrumental- /Vokalunterricht</span>
+                  <button>
+                    <img src="./assets/img/arrowIconR.png" alt="" class="course-arrow" />
+                    <img src="./assets/img/arrowIconRB.png" alt="" class="course-arrow-hover" />
+                  </button>
+                </div>
+              </div>
+              <div class="course-item-piano">
+                <div class="course-item-btn-wrap">
+                  <span>musikalische früherziehung</span>
+                  <button>
+                    <img src="./assets/img/arrowIconR.png" alt="" class="course-arrow" />
+                    <img src="./assets/img/arrowIconRB.png" alt="" class="course-arrow-hover" />
+                  </button>
+                </div>
+              </div>
+              <div class="course-item-violin">
+                <div class="course-item-btn-wrap">
+                  <span>ensemble- & ergänzungsfächer</span>
+                  <button>
+                    <img src="./assets/img/arrowIconR.png" alt="" class="course-arrow" />
+                    <img src="./assets/img/arrowIconRB.png" alt="" class="course-arrow-hover" />
+                  </button>
+                </div>
+              </div>
+              <div class="course-item-group">
+                <div class="course-item-btn-wrap">
+                  <span>veranstaltungen</span>
+                  <button>
+                    <img src="./assets/img/arrowIconR.png" alt="" class="course-arrow" />
+                    <img src="./assets/img/arrowIconRB.png" alt="" class="course-arrow-hover" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <button class="course-btn-more">
+              mehr
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16" fill="none">
+                <path
+                  d="M14.7071 8.70711C15.0976 8.31658 15.0976 7.68342 14.7071 7.29289L8.34315 0.928932C7.95262 0.538408 7.31946 0.538408 6.92893 0.928932C6.53841 1.31946 6.53841 1.95262 6.92893 2.34315L12.5858 8L6.92893 13.6569C6.53841 14.0474 6.53841 14.6805 6.92893 15.0711C7.31946 15.4616 7.95262 15.4616 8.34315 15.0711L14.7071 8.70711ZM0 9L14 9V7L0 7L0 9Z"
+                  fill="#042D19"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

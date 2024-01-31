@@ -37,10 +37,24 @@
     width: 100%;
     border-radius: 0px 0px 0px 0px;
     height: 46px;
-    align-items: center;
     max-width: 100%;
-    justify-content: center;
-    gap: 39px;
+    flex-direction: column;
+    padding: 0 18px;
+  }
+  .header-title-mobile {
+    display: block;
+  }
+
+  .contactDetails-left-title {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    padding: 0 14px;
+  }
+
+  .header-title-mobile {
+    text-align: right;
   }
   .header-btn-left,
   .header-btn-right {
@@ -49,6 +63,248 @@
 
   .contactDetails-left-item {
     width: fit-content;
+    padding: 0;
+    min-width: 231px;
+    justify-content: space-between;
+    font-size: 12px;
+  }
 
+  .content {
+    padding-left: 34px;
+    height: 185px;
+  }
+  .content-title-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .content h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 36px;
+  }
+  .content span {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 16px;
+    align-self: end;
+  }
+
+  .harmonic-sounds-container span {
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.48px;
+  }
+  .harmonic-sounds-container p {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 0.96px;
+  }
+
+  .welcome-message-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    align-items: flex-start;
+    padding-left: 6px;
+  }
+
+  .welcome-message-container p {
+    font-size: 32px;
+    letter-spacing: 0.96px;
+  }
+  .welcome-message-container span {
+    font-size: 12px;
+    letter-spacing: 0.48px;
+    padding-left: 17px;
+    padding-left: 26px;
+  }
+  .content-info {
+    max-width: 302px;
+  }
+  .welcome-message {
+    font-size: 12px;
+    letter-spacing: 0.36px;
+    margin-top: 20px;
+  }
+  .image-container {
+    transform: rotate(8.391deg);
+    top: 6%;
+    right: 0%;
+  }
+
+  .content-info-wrap {
+    margin-top: 24px;
+    margin-bottom: 17px;
+  }
+
+  .image-container img {
+    width: 95px;
+    height: 103px;
+  }
+
+  /* continue */
+  .register-wrap {
+    flex-direction: column;
+    padding-top: 29px;
+    gap: 0;
+    height: fit-content;
+  }
+  .register-img-wrap {
+    height: 143px;
+    width: 100%;
+    background-position-y: 36%;
+  }
+
+  .register-title-wrap {
+    margin-top: 21px;
+    height: fit-content;
+  }
+  .register-title-wrap p {
+    font-size: 20px;
+    line-height: 26px;
+    font-weight: 600;
+  }
+  .register-title-wrap h2 {
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 700;
+  }
+  .register-title-wrap span {
+    margin-top: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+  }
+
+  .register-btn-wrap {
+    margin-top: 38px;
+    flex-direction: row-reverse;
+    gap: 11px;
+  }
+  .btn-register,
+  .btn-about-us {
+    height: 25px;
+    box-shadow: none;
+    font-size: 12px;
+    font-weight: 600;
+    gap: 1px;
+    border-radius: 7px;
+  }
+
+  .btn-about-us {
+    width: 38%;
+  }
+
+  .btn-register {
+    width: 58%;
+  }
+
+  .btn-register img {
+    width: 10px;
+    aspect-ratio: 1;
+  }
+
+  .line-mobile-wrap {
+    display: flex;
+  }
+
+  .promotion-wrap {
+    gap: 16px;
+  }
+  .promotion {
+    margin-bottom: 0;
+  }
+  .promotion-title {
+    max-width: 229px;
+  }
+
+  .promotion-title-offer,
+  .promotion-title-our {
+    font-size: 20px;
+    font-weight: 400;
+    margin-right: 6px;
+    line-height: 24px;
+  }
+
+  .promotion-title-potential,
+  .promotion-title-develop {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 6px;
+    line-height: 24px;
+  }
+
+  .promotion-info {
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .course-item-guitar,
+  .course-item-piano,
+  .course-item-violin,
+  .course-item-group {
+    width: 297.035px;
+    height: 161px;
+  }
+  .course-item-btn-wrap {
+    width: 100%;
+    height: 54px;
+    padding: 0 21px 0 25px;
+  }
+  .course-item-btn-wrap button {
+    width: 19px;
+    height: 19px;
+  }
+  .course-item-btn-wrap button img {
+    width: 19px;
+    height: 19px;
+  }
+  .course-item-btn-wrap span {
+    font-size: 12px;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 575px) {
+  .container {
+    max-width: 319px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .register-img-wrap {
+    height: 220px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .register-img-wrap {
+    height: 400px;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .register-wrap {
+    height: 900px;
+  }
+  .course-item-guitar,
+  .course-item-piano,
+  .course-item-violin,
+  .course-item-group {
+    max-width: 450px;
+  }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .register-wrap {
+    height: 752px;
+  }
+  .course-item-guitar,
+  .course-item-piano,
+  .course-item-violin,
+  .course-item-group {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1215px;
   }
 }
