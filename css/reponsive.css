@@ -264,7 +264,6 @@
     font-weight: 600;
   }
 }
-
 @media (max-width: 575px) {
   .container {
     max-width: 319px;
