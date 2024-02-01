@@ -230,12 +230,16 @@
   display: none;
 }
 
+.line-pc-wrap,
 .line-mobile-wrap {
   display: none;
   gap: 4px;
   align-items: center;
   justify-content: space-between;
   height: 58px;
+}
+.line-pc-wrap {
+  display: flex;
 }
 
 .line {
@@ -735,7 +739,7 @@
   font-weight: 600;
   max-width: 147px;
   white-space: normal;
-  overflow: visible;  
+  overflow: visible;
 }
 
 .event-item-btn-wrap button {
@@ -748,4 +752,65 @@
 .event-item-btn-wrap svg {
   width: 31px;
   height: 31px;
+}
+
+.app-wrap {
+  margin-top: 14px;
+}
+
+.app-warning {
+  margin-left: 107px;
+  font-size: 16px;
+  color: #e80606;
+  max-width: 655px;
+  display: flex;
+  flex-direction: column;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 9px;
+}
+
+.app-title-ihre {
+  color: #042d19;
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 600;
+}
+
+.app-title-school {
+  color: #042d19;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.app-title-jetzt-wrap {
+  height: 48px;
+  margin-top: 6px;
+  display: flex;
+  align-items: flex-end;
+  color: #042d19;
+  margin-bottom: 38px;
+  white-space:break-spaces;
+
+}
+.app-title-app,
+.app-title-jetzt {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.app-title-erleben,
+.app-title-als {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.app-title-info {
+  max-width: 575px;
+  color: #6a6b6d;
+  font-size: 16px;
+  font-weight: 400;
+  display: block;
+  line-height: normal;
+  margin-bottom: 55px;
 }
